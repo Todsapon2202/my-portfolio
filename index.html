@@ -1,114 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-      <title>Document</title>
+    <title>Todsapon Boonheng - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
   </head>
   <body>
-      <section id="home">
-        <header>
-          Unit Conversions
-        </header>
-        <nav>
-          <div>
-            <a href="#temperature"><button>Temperature</button></a>
-            <a href="#weight"><button>Weight</button></a>
-            <a href="#distance"><button>Distance</button></a>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Todsapon Boonheng
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          Todsapon2202@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +43-690-1029-4238
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+        <div class="topdiv">
+            <a class="topmenu" href="#Skill"> Skill</a>
+            <!-- Add the links for Skills, Projects and Recommendation here -->
+  
           </div>
-        </nav>
-      </section>    
-
-      <div id="all-conversion-sections">
-
-        <section id="temperature">
-          <div id="tmp">
-            <figure>
-              <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" width="150px"/>
-              <figcaption>Celcius to Farenheit Conversion</figcaption>
-            </figure>
-            <article>
-
-              <fieldset>
-                <legend>Temperature</legend>
-                <label for="Temperature">Celsius</label> <br/>
-
- <input type="number" id="c"> <br/>
-
-                <button id="temperature"> Convert </button> <br/>
-
-                <input type="number" id="f"> <br/>
-
- <label for="Temperature">Fahrenheit</label>
-              </fieldset>
-              <aside>
-                To convert celsuis to fahrenheit yourself, use this formula replacing the `C` with your temperature in celsuis: (C × 9/5) + 32
-              </aside>
-            </article>
+          <div class="topdiv">
+            <a class="topmenu" href="#Project"> Project</a>
+            <!-- Add the links for Skills, Projects and Recommendation here -->
+  
           </div>
-        </section>
-
-      
-        <section id="weight">          
-          <div id="wgt">
-            <figure>
-              <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/weight.png"  width="150px"/>
-              <figcaption>Kilograms to Pound Conversion</figcaption>
-            </figure>
-            <article>
-              <fieldset>
-                <legend>Weight</legend>
-                <label for="Weight">KG</label> <br/>
-
- <input type="number"> <br/>
-
-                <button id="weight"> Convert </button>  <br/>
-
- 
-                <input type="number">  <br/>
-
-  <label for="Weight">Pounds</label>    
-              </fieldset>
-              <aside>
-                To convert kilograms to pounds yourself, use this formula replacing the `kg` with your weight in kilograms: kg x 2.205
-              </aside>      
-            </article>
+          <div class="topdiv">
+            <a class="topmenu" href="#ProjectRecommendation"> Recommendation</a>
+            <!-- Add the links for Skills, Projects and Recommendation here -->
+  
           </div>
-        </section>
+      </div>    
+    </nav>
 
-        <section id="distance">
-          <div id="dst">
-            <figure>
-              <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/speedo.png"  width="150px"/>
-              <figcaption>Kilometers to Miles Conversion</figcaption>
-            </figure>
-            <article>
-              <fieldset>
-                <legend>Distance</legend>
-                  <label for="Distance">KM</label> <br/>
-
- <input type="number">  <br/>
-
-                  <button id="distance"> Convert </button> <br/>
-
-                  <input type="number">  <br/>
-
-  <label for="Distance">Miles</label>
-              </fieldset>
-              <aside>
-                To convert kilometers to miles yourself, use this formula replacing the `km` with your distance in kilmeters: km &divide; 1.609
-              </aside>
-    
-            </article>
-          </div>
-        </section>
-
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="profile_image"/>
       </div>
 
-    <div id="go-home">
+      <div>
+          <h1>
+            Good day, My name Todsapon Boonheng! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am Chemical Engineering that other skill are general programming and process systhesis chemical.
+            I have worked on applications and deployed to combine both program and chemical process. 
+            In the future, I would to work about computer programming as soon as possible.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>1 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>1 years experience</p>
+        </div>  
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/800px-Matlab_Logo.png"/>
+            <h6>Matlab</h6>
+            <p>1 years experience</p>
+          </div>  
+          <div class="skill">
+            <img src="https://149448277.v2.pressablecdn.com/wp-content/uploads/2021/05/aspen-logo.png"/>
+            <h6>Aspen</h6>
+            <p>1 years experience</p>
+          </div> 
+          <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/SolidWorks_Logo.svg/2560px-SolidWorks_Logo.svg.png"/>
+            <h6>Solidworks</h6>
+            <p>1 years experience</p>
+          </div>  
+          
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Reaction of absorbent sheet and grain with chemical</h3>
+            <ul>
+              <li>Both sheet and grain absorbent can absorb all acid and solvent also absorbent sheet have reaction with nitric acid as color of absorbent (yellow to none). However, grain absorbent has especially reaction with sulfuric acid 98% (white to black). Finally, both sheet and grain have reaction with Nitric acid 97% as less fuming.
+                After that 10 days, I found ability of absorb solvent of both grain and sheet that had very liked. However, result of absorb with acid had difference, especial both hydrochloric and sulfuric acid that effect to grain absorbent.
+                Sheet absorbent is suitable than grain absorbent because result of experiment illuminated the resistance of sheet absorbent is better than grain absorbent.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Available resistance of new absorbent to nitric acid 97%</h3>
+            <ul>
+              <li>This absorbent has suitable for absorb nitric acid 97% when will be leaked because physical (appearance, color, smelling and reaction) have stable although for long time (10 days).</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Efficiency of stable physical
+                of new plastic drum.</h3>
+            <ul>
+              <li>Problem of sulfuric acid are high frequency, especially concern from our customers because they had found contaminate which may be establish form plastic drum. Currently, I seek plastic drum what can resistance to sulfuric acid. I hope new plastic what away this problem.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Todsapon is a very quick learner and quickly grasps key concepts of Web development. 
+          He got a great attitude & she is an excellent team player. 
+          He has a curious mind and asks the right question. 
+          He takes initiative within a team and has potentials to lead the team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Todsapon has been an awesome experience. 
+          She is highly knowledgable and always goes the extra step to make sure everything is right. 
+          For any future projects that need his expertise I would definitely want to work with her again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Todsapon during the initial phase of our venture which needed Web development. 
+          He is a committed resource who has in depth knowledge about the domain. 
+          He will be an asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+        <div showPopup="recommedation">
+            <span>&#8220;</span>
+            Thanks you for your recommedation!
+            <span>&#8221;</span>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
       <a href="#home">
-        <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg"/>
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
       </a>
     </div>
 
-    <footer>Learn more about HTML and CSS as a part of IBM Fullstack Cloud Developer Certification</footer>
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3><!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
   </body>
+ 
 </html>
